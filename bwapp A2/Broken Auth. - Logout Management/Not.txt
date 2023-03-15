@@ -1,0 +1,1 @@
+Cookeiyi tarayıcıdan silmiyor ve oturumu sunucudan kapatmıyor.

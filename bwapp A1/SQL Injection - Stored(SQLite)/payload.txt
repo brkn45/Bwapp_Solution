@@ -1,0 +1,5 @@
+* tbl_name ve name aynı anlama geliyor
+1', (select tbl_name from sqlite_master));
+
+*oluşturulan taplonun sql sorgusunu gürüyoruz.
+1', (select sql from sqlite_master));

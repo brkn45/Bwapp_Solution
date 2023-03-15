@@ -1,0 +1,2 @@
+Tarayıcıların defaultta pasif olan somesite özelliğini aktif hale getirmesinden post ile giden isteklere cookie eklenmiyor. 
+Manuel olarak eklenince başarılı şekilde istek çalışıyor.
